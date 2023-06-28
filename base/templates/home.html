@@ -1,0 +1,130 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio Page</title>
+    <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+</head>
+
+<body>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100">
+                    <img id="dp" src="{% static '/images/dp.jpg' %}">
+                    <hr>
+                    <h3>Hi, I am Isha ! </h3>
+                    <p>I love coding, doing research and collaborting</p>
+                    <ul class = "social-links">
+                    <li><a href = "https://www.w3schools.com/tags/att_a_href.asp" target="_blank"><img class="social" src="{% static '/images/linkedin.png' %}"></a></li>
+                    <li><a href = "https://github.com/ishajajoo/"  target="_blank"><img class="social" src="{% static '/images/github.png' %}"></a></li>
+                <li><a href = "https://gmail.com/compose/"  target="_blank"><img class="social" src="{% static '/images/gmail.jpeg' %}"></a></li>
+            </ul></div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body h-100">
+                    <div class="summary">
+                    <h2><b>Summary</b></h2>
+                    <hr>
+                    <ul class = "summary_info">
+                        <li>8+ years of experience as a Web Developer, Software Engineer and Automation tester using
+                            Python</li>
+                        <li>Good Experience with Django, a high-level Python Web framework. Experience in object
+                            oriented programming (OOP) concepts using Python, Django</li>
+                        <li>Experienced in WAMP (Windows, Apache, MYSQL, Python/PHP) and LAMP (Linux, Apache, MySQL,
+                            Python/PHP)</li>
+                        <li>Understanding of Python Best Practices (PEP-8) </li>
+                        <li>Familiar with JSON based REST Web services and Amazon Web Services(AWS)
+                        </li>
+                        <li>Created responsive and visually appealing user interfaces (UIs) using front-end frameworks
+                            like React and Angular.js</li>
+                        <li>Excellent communication, interpersonal and analytical skills and a highly motivated team
+                            player with the ability to work independently</li>
+                        <li>Experienced in developing Web Services with Python programming language</li>
+                        <li>Operated on AJAX framework to transform Datasets and Data tables into HTTP-serializable JSON
+                            strings</li>
+                        <li>Integrated AWS Services like S3 bucket, EKS and EC2 with Python framework</li>
+                        <li>Performed data computation using NumPy and Pandas for data manipulation and analysis</li>
+                        <li>Demonstrated presentation skills during code review and demo to larger audiences</li>
+                    </ul>
+                </div></div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col">
+            <div class="card card-body h-100">
+                <h3><b>Technical Skills</b></h3>
+                <hr>
+                <p class="card-text">
+                <ul class = "skills">
+                    <li><b>Programming Languages</b>: Python, SQL</li>
+                    <li><b>Web Development</b>: Django, Flask, HTML, CSS, JavaScript</li>
+                    <li><b>Databases</b>: PostgreSQL, MySQL, MongoDB</li>
+                    <li><b>Frameworks and Libraries</b>: Pandas, Flask, NumPy, SQLAlchemy, Django REST
+                        Framework, Bootstrap, NodeJS</li>
+                    <li><b>Version Control</b>: Git, SVN</li>
+                    <li><b>Cloud Services</b>: AWS, S3, Glue, Fargate, Cloud formation template, Step Functions
+                    </li>
+                    <li><b>Testing</b>: Unit Testing, Test-Driven Development (TDD)</li>
+                    <li><b>DevOps</b>: Docker, Kubernetes</li>
+                    <li><b>Agile Methodologies</b>: Scrum, Kanban</li>
+                    <li><b>Data Warehousing</b>: Amazon Redshift, Google BigQuery, Snowflake</li>
+                    <li><b>ETL Tools</b>: Apache Spark, Apache Airflow, Informatica</li>
+                    <li><b>Web Servers</b>: Apache Tomcat, WebSphere, WebLogic</li>
+                    <li><b>OS</b>: Windows, Linux, MacOS</li>
+                </ul>
+            
+                </p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card card-body h-100">
+                <h3><b>Work Experience</b></h3>
+                <div class="jobs">
+                <hr>
+                <br>
+
+                <h6><b>Role</b>: Python Full Stack Developer</h6>
+                <h6><b>Company</b>: Amazon.com, Seattle(WA)</h6>
+                <h6><b>From</b>: July 2022 to March 2023</h6>
+                <hr>
+                <h6><b>Role</b>: Python Developer</h6>
+                <h6><b>Company</b>: Symphony AI, Pune(India)</h6>
+                <h6><b>From</b>: Nov 2020 to April 2022</h6>
+                <hr>
+                <h6><b>Role</b>: Python Developer</h6>
+                <h6><b>Company</b>: Allscripts, Pune(India)</h6>
+                <h6><b>From</b>: September 2018 to November 2020</h6>
+                <hr>
+                <h6><b>Role</b>: Python Developer</h6>
+                <h6><b>Company</b>: Larsen & Toubro Infotech, Pune(India)</h6>
+                <h6><b>From</b>: Oct 2014 to August 2018</h6>
+            </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col">
+            <div class="card card-body">
+                <h3><b>Education Background</b></h3>
+                <h6>Bachelors of Engineering(IT)</h6>
+                <hr>
+                <h3><b>Certifications</b></h3>
+                <h6>AWS Cloud Practitioner - 2023</h6>
+            </div>
+        </div>
+    </div>
+    <br>
+    </div>
+
+</body>
+
+</html>

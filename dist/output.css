@@ -1,0 +1,52 @@
+body{
+  background-color: grey;
+}
+
+#dp{
+  background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
+  /* make a square container */
+  width: 250px;
+  height: 250px;
+  /* fill the container, preserving aspect ratio, and cropping to fit */
+  background-size: cover;
+  /* center the image vertically and horizontally */
+  background-position: top center;
+  /* round the edges to a circle with border radius 1/2 container size */
+  border-radius: 50%;
+}
+
+.border-success {
+  --bs-border-opacity: 1;
+  border-color: rgba(var(--bs-success-rgb), var(--bs-border-opacity)) !important;
+}
+
+.social{
+  width:40px;
+  height: 40px;
+}
+
+.social-links{
+  width: 100%;
+  margin-left: -10%;
+}
+
+.social-links li {
+  display: inline;
+}
+
+.jobs{
+  font-size: 16px;
+}
+
+.skills{
+  list-style-type: none;
+  margin-left: -5%;
+}
+
+.summary{
+  margin-left: 6%;
+}
+
+.summary_info{
+  list-style-type: none;
+}
